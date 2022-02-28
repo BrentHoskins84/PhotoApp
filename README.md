@@ -4,10 +4,10 @@ A Simple, app to search the UnSplash APi.
 
 ## Installation and Setup Instructions
 
-Clone down this repo. you will need to have react native setup and configured.
+Before downloading the App you will need to get an UnSplash API key, for security reasons the API was has not been add to the repo. To get an API key for UnSplash, you can create an account [here]("https://unsplash.com/login")
 
 ```
-git clone
+git clone git@github.com:BrentHoskins84/PhotoApp.git
 ```
 
 Change Directories to the project
@@ -21,6 +21,8 @@ Npm Install
 ```
 npm i
 ```
+
+Make copy of the .env-sample file and name it .env then add the API key from above to the newly created .env file.
 
 run the app in an emulator
 
